@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VidTube</title>
+</head>
+
+<body>
+
+  
+</body>
+
+<script>
+var url = new URL(window.location.href);
+var vidId = url.searchParams.get("id");
+
+fetch('lib/videos.js')
+  .then(response => response.json())
+  .then(response => {
+    renderVideos(response);
+});
+
+function renderVideos(res) {
+  for (var i = 0; i < res.length; i++) {
+    if (vidId == res[i].id) {
+  document.body.innerHTML += `<video controls autoplay><source src="${res[i].url}" type="video/mp4">Your browser does not support the video tag.</video>`;
+    }
+  }
+}
+  
+  </script>
