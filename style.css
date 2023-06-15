@@ -149,6 +149,10 @@ nav {
     margin-top: 15px;
 }
 
+.vid-list {
+  margin-bottom: -16px;
+}
+
 .vid-list .thumbnail {
     width: 100%;
     max-height: 182px;
