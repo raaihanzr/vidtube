@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+  overflow: hidden;
+}
+
 img {
     cursor: pointer;
 }
@@ -198,6 +202,9 @@ body::-webkit-scrollbar-thumb {
   .container {
     padding: 0;
   }
+  .list-container {
+    margin-top: 0;
+  }
   .container .large-container {
     padding: 0 5%;
   }
@@ -210,8 +217,12 @@ body::-webkit-scrollbar-thumb {
   .nav-middle .search-box input {
     width: 120px;
   }
+  .nav-middle .search-box {
+    margin-right: 8px;
+  }
   .nav-left .logo {
     width: 100px;
+    margin-right: 5px;
   }
   .vid-list .thumbnail {
     border-radius: 0;
