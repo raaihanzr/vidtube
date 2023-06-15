@@ -45,7 +45,7 @@ function renderVideos(res) {
     if (vidId == res[i].id) {
       document.querySelector(".container").innerHTML += `<video controls autoplay><source src="${res[i].url}" type="video/mp4">Your browser does not support the video tag.</video>`;
       document.title = res[i].title.slice(0, 10);
-    } else {
+    } else if (vidId != res[i].id) {
       window.location.replace('/vidtube');
     }
   }
