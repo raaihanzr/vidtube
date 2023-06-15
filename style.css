@@ -149,10 +149,6 @@ nav {
     margin-top: 15px;
 }
 
-.vid-list {
-  margin-bottom: -16px;
-}
-
 .vid-list .thumbnail {
     width: 100%;
     max-height: 182px;
@@ -204,7 +200,7 @@ body::-webkit-scrollbar-thumb {
     display: none;
   }
   nav {
-    padding: 10px 20px;
+    padding: 10px 18px;
   }
   .container {
     padding: 0;
@@ -225,17 +221,20 @@ body::-webkit-scrollbar-thumb {
     width: 120px;
   }
   .nav-middle .search-box {
-    margin-right: 10px;
+    margin-right: 12px;
   }
   .nav-left .logo {
     width: 100px;
-    margin-right: 10px;
+    margin-right: 12px;
   }
   .vid-list .thumbnail {
     border-radius: 0;
   }
   .vid-list .flex-div {
     padding: 0 8px;
+  }
+  .vid-list {
+    margin-bottom: -14px;
   }
 }
 
