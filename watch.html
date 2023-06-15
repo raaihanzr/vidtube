@@ -18,6 +18,8 @@
 html, body {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
     
 .container {
@@ -44,7 +46,7 @@ function renderVideos(res) {
   for (var i = 0; i < res.length; i++) {
     if (vidId == res[i].id) {
       document.querySelector(".container").innerHTML += `<video controls autoplay><source src="${res[i].url}" type="video/mp4">Your browser does not support the video tag.</video>`;
-      document.title = res[i].title.slice(0, 10);
+      document.title = res[i].title;
     }
   }
 }
