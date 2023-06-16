@@ -133,7 +133,6 @@ nav {
 
 .container {
     padding: 20px 2% 20px 11%;
-    height: 100vh;
     transition: padding 0.3s ease;
 }
 
@@ -204,10 +203,10 @@ body::-webkit-scrollbar-thumb {
   }
   .container {
     padding: 0;
+    padding-bottom: 20px;
   }
   .list-container {
     margin-top: 0;
-    padding-bottom: 8px;
   }
   .container .large-container {
     padding: 0 5%;
