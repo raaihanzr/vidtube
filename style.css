@@ -173,6 +173,7 @@ nav {
   color: black;
   text-decoration: none;
   margin-bottom: 5px;
+    font-size: 17px;
 }
 
 .vid-info {
@@ -180,7 +181,7 @@ nav {
 }
 
 .vid-info p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 
