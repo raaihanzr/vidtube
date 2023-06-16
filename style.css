@@ -207,6 +207,7 @@ body::-webkit-scrollbar-thumb {
   }
   .list-container {
     margin-top: 0;
+    padding-bottom: 8px;
   }
   .container .large-container {
     padding: 0 5%;
@@ -234,7 +235,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0 8px;
   }
   .vid-list {
-    margin-bottom: -14px;
+    margin-bottom: -12px;
   }
 }
 
