@@ -70,7 +70,7 @@ nav {
 
 .sidebar {
   background: #fff;
-  width: 180px;
+  width: auto;
   height: 100vh;
   position: fixed;
   top: 0;
