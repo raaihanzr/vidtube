@@ -76,7 +76,6 @@ nav {
   top: 0;
   padding-left: 26px;
   padding-top: 80px;
-  transition: width 0.3s ease;
   border: 1px solid #ccc;
 }
 
@@ -132,8 +131,7 @@ nav {
 }
 
 .container {
-    padding: 20px 2% 20px 11%;
-    transition: padding 0.3s ease;
+  padding: 20px 2% 20px 11%;
 }
 
 .large-container {
@@ -142,7 +140,7 @@ nav {
 
 .list-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-column-gap: 16px;
     grid-row-gap: 30px;
     margin-top: 15px;
@@ -173,13 +171,11 @@ nav {
   color: black;
   text-decoration: none;
   margin-bottom: 5px;
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .vid-info {
   color: #5a5a5a;
-    display: block;
-    width: auto;
 }
 
 .vid-info p {
