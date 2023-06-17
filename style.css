@@ -70,11 +70,11 @@ nav {
 
 .sidebar {
   background: #fff;
-  width: auto;
+  width: 240px;
   height: 100vh;
   position: fixed;
   top: 0;
-  padding: 80px 32px 0 26px;
+  padding: 80px 28px 0 22px;
   border: 1px solid #ccc;
 }
 
@@ -130,11 +130,11 @@ nav {
 }
 
 .container {
-  padding: 20px 2% 20px 16%;
+  padding: 20px 2% 20px calc(100vw - 250px);
 }
 
 .large-container {
-  padding-left: 5%;
+  padding-left: calc(100vw - 72px);
 }
 
 .list-container {
