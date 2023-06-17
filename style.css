@@ -74,7 +74,7 @@ nav {
   height: 100vh;
   position: fixed;
   top: 0;
-  padding: 80px 26px 0 26px;
+  padding: 80px 26px 0 30px;
   border: 1px solid #ccc;
 }
 
@@ -105,7 +105,7 @@ nav {
 }
 
 .small-sidebar {
-  padding-left: 0;
+  padding: 80px 0 0;
 } 
 
 .small-sidebar .shortcut-links a {
