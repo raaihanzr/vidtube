@@ -178,6 +178,8 @@ nav {
 
 .vid-info {
   color: #5a5a5a;
+    display: block;
+    width: auto;
 }
 
 .vid-info p {
