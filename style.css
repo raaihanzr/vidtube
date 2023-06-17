@@ -74,7 +74,7 @@ nav {
   height: 100vh;
   position: fixed;
   top: 0;
-  padding: 80px 26px 0 30px;
+  padding: 80px 32px 0 26px;
   border: 1px solid #ccc;
 }
 
@@ -130,7 +130,7 @@ nav {
 }
 
 .container {
-  padding: 20px 2% 20px 11%;
+  padding: 20px 20% 20px 11%;
 }
 
 .large-container {
