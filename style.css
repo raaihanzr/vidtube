@@ -150,7 +150,7 @@ nav {
 
 .vid-list .thumbnail {
     width: 100%;
-    max-height: 182px;
+    height: 180px;
     background: black;
     border-radius: 4%;
     
