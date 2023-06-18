@@ -70,7 +70,7 @@ nav {
 
 .sidebar {
   background: #fff;
-  width: auto;
+  width: 240px;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -79,10 +79,8 @@ nav {
 }
 
 .sidebar hr {
-  height: 1px;
-  width: 86%;
   margin: 20px 0;
-  background: #f8f8f8;
+  border-color: rbga(0, 0, 0, .1);
 }
 
 .small-sidebar {
@@ -130,11 +128,11 @@ nav {
 }
 
 .container {
-  padding: 20px 2% 20px 16%;
+  padding: 20px 2% 20px 250px;
 }
 
 .large-container {
-  padding-left: 5%;
+  padding-left: 75px;
 }
 
 .list-container {
