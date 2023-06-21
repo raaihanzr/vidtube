@@ -143,6 +143,23 @@ nav {
     margin-top: 15px;
 }
 
+.vid-list .thumbwr {
+  position: relative;
+}
+
+.thumbwr .duration {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.duration span {
+  color: white;
+}
+
 .vid-list .thumbnail {
     width: 100%;
     height: 180px;
