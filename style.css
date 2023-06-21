@@ -149,15 +149,19 @@ nav {
 
 .thumbwr .duration {
   position: absolute;
-  right: 5px;
-  bottom: 5px;
+  right: 8px;
+  bottom: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 
 .duration span {
   color: white;
+  font-size: 13px;
 }
 
 .vid-list .thumbnail {
